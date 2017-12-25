@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
-
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{% include relative %}{{ "/assets/style.css" | relative_url }}">
 </head>
-
 <body>
     <div class="header">
         <a class="site-title" href="{% include relative %}" >{{ site.title }}</a>
         {% for my_page in site.pages %}{% if my_page.title and my_page.noindex != true %}
          | <a href="{% include relative %}{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
         {% endif %}{% endfor %}
+        {% if site.feed == on %} | <a href="{% include relative %}/feed.xml">RSS</a>{% endif %}
     </div>
-        {{ content }}
+    {{ content }}
 </body>
-
 </html>
