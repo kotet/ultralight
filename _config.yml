@@ -16,16 +16,14 @@
 title: Your awesome title
 baseurl: "" # For github pages
 description: >- # markdown
-  Super lightweight Jekyll theme [ultralight](https://github.com/kotet/ultralight)
-
   
-  [Twitter](https://twitter.com/kotetttt)
-  \| [GitHub](https://github.com/kotet)
 
 google_analytics: 
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
