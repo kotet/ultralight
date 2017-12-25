@@ -1,0 +1,1 @@
+{% assign lvl = page.url | append:'X' | split:'/' | size %}{% for i in (3..lvl) %}../{% endfor %}.

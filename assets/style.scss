@@ -1,0 +1,62 @@
+---
+---
+$base-font-size:   16px !default;
+$text-color:    black;
+$border-color: lightgray;
+$highlight-background-color: lightgray;
+
+body {
+    color: $text-color;
+    margin: 0;
+    word-break: break-word;
+}
+
+ul {
+    padding-left: 10px;
+    margin: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+article {
+    padding: 0 20px 0 20px;
+}
+
+.home {
+    padding: 1em;
+}
+
+.header {
+    padding: 10px;
+    border-bottom: 1px solid $border-color;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.site-title {
+    color: $text-color;
+    font-weight: bold; 
+}
+
+.post-counter {
+    font-weight: bold; 
+}
+
+.highlight {
+    margin: 0;
+    padding-left: 10px;
+    border-radius: 5px;
+    background: $highlight-background-color;
+}
+
+.highlighter-rouge {
+    border-radius: 5px;
+    background: $highlight-background-color;
+}
+
+.post-info {
+    margin: auto;
+}
+
