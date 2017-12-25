@@ -2,14 +2,17 @@
 layout: default
 ---
 <article>
-    <header class="post-header">
-        <h1>{{ page.title | escape }}</h1>
+    <div class="post-header">
+        <h1>
+            <a href="{% include relative %}/tags/#{{ page.tags[0] | downcase }}">#{{ page.tags[0] }}</a> 
+            {{ page.title | escape }}
+        </h1>
         <p class="post-info">
                 <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
             {% for tag in page.tags %}
              | <a href="{% include relative %}/tags/#{{ tag | downcase }}">#{{ tag }}</a>
             {% endfor %}
         </p>
-    </header>
+    </div>
     {{ content }}
 </article>

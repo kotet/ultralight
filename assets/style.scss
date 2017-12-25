@@ -1,9 +1,8 @@
 ---
 ---
-$base-font-size:   16px !default;
-$text-color:    black;
+$base-font-size: 16px !default;
+$text-color: black;
 $border-color: lightgray;
-$highlight-background-color: lightgray;
 
 body {
     color: $text-color;
@@ -25,13 +24,19 @@ article {
     padding: 0 20px 0 20px;
 }
 
-.home {
-    padding: 1em;
-}
-
-.header {
+header {
     padding: 10px;
     border-bottom: 1px solid $border-color;
+}
+
+footer {
+    padding: 10px;
+    border-top: 1px solid $border-color;
+    margin-top: 20px;
+}
+
+.home {
+    padding: 1em;
 }
 
 .site-title {
@@ -43,19 +48,6 @@ article {
     font-weight: bold; 
 }
 
-.highlight {
-    margin: 0;
-    padding-left: 10px;
-    border-radius: 5px;
-    background: $highlight-background-color;
-}
-
-.highlighter-rouge {
-    border-radius: 5px;
-    background: $highlight-background-color;
-}
-
 .post-info {
     margin: auto;
 }
-
