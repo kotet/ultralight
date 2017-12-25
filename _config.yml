@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Your awesome title
+baseurl: "" # For github pages
 description: >- # markdown
   Super lightweight Jekyll theme [ultralight](https://github.com/kotet/ultralight)
 
