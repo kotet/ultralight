@@ -49,3 +49,12 @@ table {
         border-right: 1px double $border-color;
     }
 }
+
+.content-wrapper {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    * {
+        max-width: 100%;
+    }
+}

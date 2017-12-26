@@ -9,7 +9,11 @@
         {% endif %}{% endfor %}
     </header>
     <hr>
+    <main>
+    <div class="content-wrapper">
     {{ content }}
+    </div>
+    </main>
     <hr>
     <footer>
         {% capture footer-md %}{% include footer.md %}{% endcapture %}{{ footer-md | markdownify }}
