@@ -1,0 +1,13 @@
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@{{ site.twitter_username }}" />
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title | escape }} - {{ site.title | escape }}" />
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}" />
+{% endif %}
+<meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
+{% if page.image %}
+  <meta name="twitter:image" content="{{ site.url }}/assets/{{ page.image }}" />
+{% else %}
+  <meta name="twitter:image" content="{{ site.url }}/assets/logo.png" />
+{% endif %}
