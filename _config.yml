@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Your awesome title
 baseurl: "" # For github pages
-description: >- # markdown
+description: >- # You can edit footer in _includes/footer.md 
+  This is an ultralight demo.
   
 
 google_analytics: 
