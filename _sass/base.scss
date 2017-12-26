@@ -1,0 +1,51 @@
+$base-font-size: 16px !default;
+$text-color: black;
+$border-color: lightgray;
+
+body {
+    color: $text-color;
+    margin: 0;
+    word-break: break-word;
+    font-family: Helvetica,sans-serif;
+}
+
+ul {
+    padding-left: 10px;
+    margin: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+article {
+    padding: 0 20px 0 20px;
+}
+
+header,footer {
+    padding: 10px;
+}
+
+.home {
+    padding: 1em;
+}
+
+.site-title {
+    color: $text-color;
+    font-weight: bold; 
+}
+
+.post-counter {
+    font-weight: bold; 
+}
+
+.post-info {
+    margin: auto;
+}
+
+table {
+    th,td {
+        border-bottom: 1px solid $border-color;
+        border-right: 1px double $border-color;
+    }
+}
