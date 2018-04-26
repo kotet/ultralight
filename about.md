@@ -9,7 +9,7 @@ permalink: /about/
 Ultralight is super-lightweight responsive super Jekyll theme.
 It can be hosted on GitHub Pages/IPFS.
 
-[demo1](https://kotet.github.io/ultralight/) [demo2(Kotet's Personal Blog)](https://kotet.github.io/)
+[demo1](https://kotet.github.io/ultralight/)
 
 ### Output size:
 
