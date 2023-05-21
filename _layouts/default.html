@@ -1,25 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html>
 {% include head.html %}
 <body>
-    <header>
-        <a class="site-title" href="{% include relative %}" >{{ site.title }}</a>
-        <div style="display: inline-block">
-            {% for my_page in site.pages %}{% if my_page.title and my_page.noindex != true %}
-             | <a href="{% include relative %}{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
-            {% endif %}{% endfor %}
-        </div>
-        
-    </header>
-    <hr>
-    <main>
-    <div class="content-wrapper">
-    {{ content }}
-    </div>
-    </main>
-    <hr>
-    <footer>
-        {% capture footer-md %}{% include footer.md %}{% endcapture %}{{ footer-md | markdownify }}
-    </footer>
+<div>
+    <a class="site-title" href="{% include relative %}" style="font-size: 125%;">{{ site.title }}</a>
+    <div style="display: inline-block"> | <a href="{% include relative %}/about/">About</a> | <a href="{% include relative %}/tags/">Tags</a></div>
+</div><hr>
+<main>
+<div class="content-wrapper">{{ content }}</div>
+</main>
+<hr><div><p style="text-align: center;">{% capture footer-md %}{% include footer.md %}{% endcapture %}{{ footer-md | markdownify }}</p></div>
 </body>
 </html>

@@ -3,16 +3,13 @@ layout: default
 ---
 <article>
     <div class="post-header">
-        <h1>
-            <a href="{% include relative %}/tags/#{{ page.tags[0] | downcase }}">#{{ page.tags[0] }}</a> 
-            {{ page.title | escape }}
-        </h1>
-        <p class="post-info">
-                <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-            {% for tag in page.tags %}
-             | <a href="{% include relative %}/tags/#{{ tag | downcase }}">#{{ tag }}</a>
-            {% endfor %}
-        </p>
+    <h1><a href="../../../" style="font-size: 75%;color:grey;">Back</a>  {{ page.title | escape }}</h1>
+    <p class="post-info">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+        {% for tag in page.tags %}
+            | <a href="{% include relative %}/tags/#{{ tag | downcase }}">#{{ tag }}</a>
+        {% endfor %}
+    </p>
     </div>
     {{ content }}
 </article>
