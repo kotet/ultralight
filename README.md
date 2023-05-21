@@ -255,6 +255,24 @@ a:active {color:$link-text;text-decoration:none;}
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" href="{% include relative %}/img/favicon.ico" type="image/x-icon">{% include head/style.html %}<title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title><meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">{% if page.mathjax %}{% include head/mathjax.html %}{% endif %}</head>
 ```
 
+#### [_includes/footer.md](/_includes/footer.md)
+
+原
+```
+Super lightweight Jekyll theme [ultralight](https://github.com/kotet/ultralight)  
+[Twitter](https://twitter.com/kotetttt)
+| [GitHub](https://github.com/kotet)
+```
+
+改
+```
+<div style="text-align:center;">
+Super lightweight Jekyll theme [ultralight](https://github.com/kotet/ultralight)  
+[Twitter](https://twitter.com/kotetttt)
+| [GitHub](https://github.com/kotet)
+</div>
+```
+
 其余均为[kotet](https://github.com/kotet)编写, 使用[MIT](./LICENSE)
 
 <!-- END NEW README.md -->
