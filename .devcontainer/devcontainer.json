@@ -13,6 +13,7 @@
                     },
                 },
                 "terminal.integrated.defaultProfile.linux": "bash",
+                "files.insertFinalNewline": false
             },
             "extensions": [
                 "ms-azuretools.vscode-docker",

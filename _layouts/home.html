@@ -1,17 +1,15 @@
 ---
 layout: default
 ---
-<div class="home">
-<span class="post-counter" >{{ site.posts | size }} Posts</span>
+<div style="padding: 1em;">
+<span style="font-weight: bold;" >{{ site.posts | size }} Posts</span>
 <ul>
     {% for post in site.posts %}
     <li>
         <a href="{% include relative %}{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         <p class="post-info">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-            {% for tag in post.tags %}
-             | <a href="{% include relative %}/tags/#{{ tag | downcase }}">#{{ tag }}</a>
-            {% endfor %}
+            {% for tag in post.tags %} | <a href="{% include relative %}/tags/#{{ tag | downcase }}">#{{ tag }}</a>{% endfor %}
         </p>
     </li>
     {% endfor %}

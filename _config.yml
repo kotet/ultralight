@@ -30,6 +30,9 @@ markdown: kramdown
 sass:
   style: compressed
 
+# use custom theme
+theme: null
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -42,3 +45,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - LICENSE
