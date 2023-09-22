@@ -1,8 +1,0 @@
-language: ruby
-
-rvm:
-- 2.4.0
-
-script: bundle exec jekyll build &&  du -ah ./_site
-
-sudo: false

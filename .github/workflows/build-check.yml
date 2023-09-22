@@ -1,5 +1,11 @@
 name: Building Test
-on: [push]
+on:
+  push:
+    branches:
+      - master
+  schedule: # every 1st day of the month at 00:26 UTC
+    - cron: '26 0 1 * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
