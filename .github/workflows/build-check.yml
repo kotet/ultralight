@@ -1,0 +1,15 @@
+name: Building Test
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "Checkout repository"
+      uses: actions/checkout@v2
+    - name: "Build with Jekyll"
+      uses: actions/jekyll-build-pages@v1
+      with:
+        source: ./
+        destination: ./_site
+    - name: "Show size of _site/"
+      run: du -sh _site

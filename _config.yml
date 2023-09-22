@@ -8,6 +8,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+encoding: utf-8
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -15,13 +17,13 @@
 # in the templates via {{ site.myvariable }}.
 title: Your awesome title
 baseurl: "" # For github pages
-description: >- # You can edit footer in _includes/footer.md 
+description: >- # You can edit footer in _includes/footer.md
   This is an ultralight demo.
 
 google_analytics: # Enter your tracking ID. Not available on IPFS
 
 twitter_cards: off # Not available on IPFS. /assets/logo.png required
-twitter_username: 
+twitter_username:
 
 # Build settings
 markdown: kramdown
@@ -31,11 +33,12 @@ sass:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md

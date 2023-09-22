@@ -1,6 +1,6 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
-RUN apt update && apt -y install \
+RUN apt-get update && apt-get -y install --no-install-recommends \
     git \
     gcc \
     g++ \
@@ -9,7 +9,7 @@ RUN apt update && apt -y install \
     ruby \
     ruby-dev
 
-RUN gem install jekyll bundler github-pages
+RUN gem install bundler
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
