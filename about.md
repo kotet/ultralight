@@ -7,18 +7,20 @@ permalink: /about/
 ![shot](https://user-images.githubusercontent.com/8435623/34344912-0665d490-ea2e-11e7-9bd8-919a6ced2a40.png)
 
 Ultralight is super-lightweight responsive super Jekyll theme.
+Inspired by [CNN Lite](https://lite.cnn.com).
+
 It can be hosted on GitHub Pages/IPFS.
 
-[demo1](https://kotet.github.io/ultralight/)
+[demo1: kotet.jp/ultralight/](https://kotet.jp/ultralight/)
 
 ### Output size:
 
-- [minima@affcd93](https://github.com/jekyll/minima/tree/affcd93be22e960afd2be08e6891d99b31bcf920): 256K
-- **[ultralight@9bffabb](https://github.com/kotet/ultralight/tree/9bffabb42cc64c0be563d5c3d3977ab6bb5761b9): 40K**
+- [minima@2863624](https://github.com/jekyll/minima/tree/2863624b903b17f838d6ce8d2f77900fa9d3c864): 388K
+- **[ultralight@e7a7bce](https://github.com/kotet/ultralight/tree/e7a7bce911eed44bf4d1d1818b118cee67a3f538): 56K**
 
 ### Pagespeed:
 
-![screenshot from 2017-12-26 10-17-46](https://user-images.githubusercontent.com/8435623/34344205-7f316c3e-ea26-11e7-8fcb-1184ee929c8d.png)
+[![image](https://github.com/kotet/ultralight/assets/8435623/037a8982-66cc-46ae-9926-ccca7471f3f4)](https://pagespeed.web.dev/analysis/https-kotet-jp-ultralight/xvkytq8rwg?hl=en&form_factor=mobile)
 
 ## Usage
 
