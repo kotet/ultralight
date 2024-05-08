@@ -3,7 +3,7 @@
 [![Build Status](https://github.com/kotet/ultralight/actions/workflows/build-check.yml/badge.svg)](https://github.com/kotet/ultralight/actions/workflows/build-check.yml)
 [![](https://github.com/kotet/ultralight/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kotet/ultralight/actions/workflows/pages/pages-build-deployment)
 
-![shot](https://user-images.githubusercontent.com/8435623/34344912-0665d490-ea2e-11e7-9bd8-919a6ced2a40.png)
+![Screen Shot 2024-05-08 at 22 57 41](https://github.com/kotet/ultralight/assets/8435623/2d624b83-a818-4433-a301-2c7d5c8471ab)
 
 Ultralight is super-lightweight responsive super Jekyll theme.
 Inspired by [CNN Lite](https://lite.cnn.com).
