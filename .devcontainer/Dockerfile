@@ -7,7 +7,11 @@ RUN apt-get update && apt-get -y install --no-install-recommends \
     make \
     zlib1g-dev \
     ruby \
-    ruby-dev
+    ruby-dev \
+    curl \
+    ssh \
+    ca-certificates \
+    bash-completion
 
 RUN gem install bundler
 
