@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
     spec.name        = 'ultralight'
-    spec.version     = '1.0.0'
+    spec.version     = '1.0.1'
     spec.authors     = ['Kotet']
     spec.email       = ['kotet0418@gmail.com']
     spec.summary     = 'Lightweight responsive Jekyll theme'
