@@ -12,6 +12,7 @@ It can be hosted on GitHub Pages/IPFS.
 
 - [demo1: kotet.jp/ultralight/](https://kotet.jp/ultralight/)
 - [demo2: kotet.jp/ultralight-demo (gem-based)](https://kotet.jp/ultralight-demo/)
+  - [repository: kotet/ultralight-demo](https://github.com/kotet/ultralight-demo)
 
 ### Output size:
 
